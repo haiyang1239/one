@@ -993,7 +993,7 @@ margin-right: clamp(1px, 0.8vw, 4px);   /* 标签右侧小间距 */
             <div class="wm-row-right-40">
                 <div class="wm-slider-row">
                     <span class="slider-label">大小</span>
-                    <span id="sizeVal" class="slider-value">40</span>
+                    <span id="sizeVal" class="slider-value">100</span>
                     <span class="slider-unit">p</span>
                     <input type="range" id="wmSize" min="10" max="200" value="40" step="1">
                 </div>
@@ -1894,7 +1894,7 @@ document.addEventListener("click", (e) => {
 
                 // ========== 水印面板新控件初始化（独立于拼图）==========
         // 1. 字体滚动条初始化
-        const wmFontList = ["Arial", "微软雅黑","Times New Roman", "Verdana"];
+        const wmFontList = ["Arial","微软雅黑","Times New Roman","Verdana"];
         function initWmFontScroll() {
             const container = document.getElementById("wmFontScrollContainer");
             if (!container) return;
